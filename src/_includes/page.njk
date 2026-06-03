@@ -1,0 +1,17 @@
+---
+layout: base.njk
+---
+
+<div class="page-header">
+  <div class="page-header-inner">
+    <div class="eyebrow">Scottish Self-Determination</div>
+    <h1>{{ title }}</h1>
+    {% if subtitle %}<p class="subtitle">{{ subtitle }}</p>{% endif %}
+  </div>
+</div>
+
+<div class="content-section">
+  <div class="content-body">
+    {{ content | safe }}
+  </div>
+</div>

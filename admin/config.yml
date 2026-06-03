@@ -1,0 +1,128 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "assets/images"
+public_folder: "/assets/images"
+
+collections:
+  - name: "how-uk"
+    label: "How the UK Came To Be"
+    files:
+      - label: "Section Overview"
+        name: "how-uk-index"
+        file: "src/how-the-uk-came-to-be/index.md"
+        fields:
+          - { label: "Body Content", name: "body", widget: "markdown" }
+      - label: "The Run Up To The Union"
+        name: "run-up"
+        file: "src/how-the-uk-came-to-be/the-run-up-to-the-union.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Body Content", name: "body", widget: "markdown" }
+      - label: "The Capturing of Scotland"
+        name: "capturing"
+        file: "src/how-the-uk-came-to-be/the-capturing-of-scotland.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Body Content", name: "body", widget: "markdown" }
+      - label: "We Have Catch'd Scotland"
+        name: "catchd"
+        file: "src/how-the-uk-came-to-be/we-have-catchd-scotland.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Body Content", name: "body", widget: "markdown" }
+      - label: "The Darien Venture"
+        name: "darien"
+        file: "src/how-the-uk-came-to-be/the-darien-venture.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Body Content", name: "body", widget: "markdown" }
+
+  - name: "scotland-union"
+    label: "Scotland in the Union"
+    files:
+      - label: "Section Overview"
+        name: "scotland-union-index"
+        file: "src/scotland-in-the-union/index.md"
+        fields:
+          - { label: "Body Content", name: "body", widget: "markdown" }
+      - label: "Welcome to the Colony"
+        name: "colony"
+        file: "src/scotland-in-the-union/welcome-to-the-colony.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Body Content", name: "body", widget: "markdown" }
+      - label: "What the UK Thinks About Us"
+        name: "uk-thinks"
+        file: "src/scotland-in-the-union/what-the-uk-thinks-about-us.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Body Content", name: "body", widget: "markdown" }
+      - label: "The Scottish and English Crowns"
+        name: "crowns"
+        file: "src/scotland-in-the-union/scottish-and-english-crowns.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Body Content", name: "body", widget: "markdown" }
+      - label: "The Theft of Scotland's Resources"
+        name: "theft"
+        file: "src/scotland-in-the-union/theft-of-scotlands-resources.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Body Content", name: "body", widget: "markdown" }
+
+  - name: "ending"
+    label: "How To End The Union"
+    files:
+      - label: "Section Overview"
+        name: "ending-index"
+        file: "src/ending-the-union/index.md"
+        fields:
+          - { label: "Body Content", name: "body", widget: "markdown" }
+      - label: "How to Restore Our Independence"
+        name: "restore"
+        file: "src/ending-the-union/how-to-restore-our-independence.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Body Content", name: "body", widget: "markdown" }
+      - label: "How to Become a Normal Country"
+        name: "normal-country"
+        file: "src/ending-the-union/how-to-become-a-normal-country.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Body Content", name: "body", widget: "markdown" }
+      - label: "The Only Route to Freedom"
+        name: "route-to-freedom"
+        file: "src/ending-the-union/the-only-route-to-freedom.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Body Content", name: "body", widget: "markdown" }
+      - label: "The Claim of Right"
+        name: "claim-of-right"
+        file: "src/ending-the-union/the-claim-of-right.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Body Content", name: "body", widget: "markdown" }
+      - label: "The Edinburgh Proclamation"
+        name: "edinburgh-proclamation"
+        file: "src/ending-the-union/the-edinburgh-proclamation.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Body Content", name: "body", widget: "markdown" }
+      - label: "The Section 30 Trap"
+        name: "section-30"
+        file: "src/ending-the-union/the-section-30-trap.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Body Content", name: "body", widget: "markdown" }
+
+  - name: "other"
+    label: "Other Pages"
+    files:
+      - label: "A New Scotland"
+        name: "new-scotland"
+        file: "src/a-new-scotland.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Body Content", name: "body", widget: "markdown" }
