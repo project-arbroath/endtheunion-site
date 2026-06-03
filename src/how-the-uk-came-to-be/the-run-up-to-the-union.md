@@ -4,8 +4,7 @@ title: The Run Up To The Union
 navPage: how-uk
 permalink: /how-the-uk-came-to-be/the-run-up-to-the-union/
 ---
-
-First off, it's really important to understand that before the union, that's before the UK began, Scotland (and England for that matter) was an independent sovereign state. Keep that in mind, because we'll return to that fact frequently.
+First, it's really important to understand that before the union, that's before the UK began, Scotland (and England for that matter) was an independent sovereign state. Keep that in mind, because we'll return to that fact frequently.
 
 For nearly a thousand years before the union with England, the nation of Scotland was a major European sovereign state, one of the continent's oldest, some say the third oldest nation in the world.
 
