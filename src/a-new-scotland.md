@@ -1,6 +1,6 @@
 ---
 layout: page.njk
-title: A New Government for Scotland
+title: Scotland – I want to live there
 navPage: new-scotland
 permalink: /a-new-scotland/
 ---
